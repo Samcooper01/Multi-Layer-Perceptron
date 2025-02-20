@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jneau
+HostName                       tux-105.cae.wisc.edu
+ProcessIdentifier              2805736
+ProcessCreationTime_UTC        1731530204
+ProcessCreationTime_Readable   Wed Nov 13 14:36:44 2024 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /filespace/j/jneau/ece555/555_project/INV_rvt/schematic/sch.oa.cdslck
+TimeEditLocked                 Wed Nov 13 16:09:02 2024 CST

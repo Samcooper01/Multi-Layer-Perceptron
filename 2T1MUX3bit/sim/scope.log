@@ -1,0 +1,98 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+8+85
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+145+82
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/n/nwoolf/ece555/555_project/2T1MUX3bit/sim/test.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x242+2240+540
+wm geometry .sigmgr._PF:1 231x319+1314+515
+wm geometry .sigmgr 376x204+659+161
+wm geometry .sigmgr 376x204+1273+159
+wm geometry .sigmgr._PF:1 232x242+2240+540
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+1274+460
+wm geometry .sigmgr._PF:1 479x444+1274+460
+pf:read PF:1 v(in<0>) v(in<1>) v(in<2>) v(in<3>) v(out<0>) v(out<1>) v(out<2>)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7} -region {new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6
+Mdi:FullSize
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+wm geometry .sigmgr._PF:1 232x242+2240+540
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+1274+460
+wm geometry .sigmgr._PF:1 479x444+1274+460
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/n/nwoolf/ece555/555_project/2T1MUX3bit/sim/test.tr0 1 openonly
+# PF:2
+wm geometry .sigmgr._PF:2 232x242+2270+570
+ScopeSigMgr:Unload 0 {{(1) test.tr0}}
+wm geometry .sigmgr._PF:2 637x506+1271+454
+GrXY:NewGraph
+# Graph1
+pf:read PF:2 v(in<0>) v(in<1>) v(in<2>) v(in<3>) v(out<0>) v(out<1>) v(out<2>)
+# WF:2:1 WF:2:2 WF:2:3 WF:2:4 WF:2:5 WF:2:6 WF:2:7
+Graph addsignal {WF:2:1 WF:2:2 WF:2:3 WF:2:4 WF:2:5 WF:2:6 WF:2:7} -region {new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6
+Mdi:FullSize
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph1
+Graph:DSel
+Graph itemselect Signal5 add
+# Signal5
+Graph sigconfig Signal5 -region 6 -rgnindex 1
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+Graph sigconfig Signal4 -region 5 -rgnindex 2
+Graph:DSel
+Mdi:ArrangeIcons
+wm geometry . 1022x785+145+82
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig Signal2 -region 3 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 2 -rgnindex 2
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -region 1 -rgnindex 3
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig {Signal3 Signal6 Signal5 Signal4} -regswap {1 2 2 2}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+145+82
+Mdi:ArrangeIcons
+wm geometry . 1022x785+145+82
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

@@ -1,0 +1,24 @@
+header
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "V-2023.12-SP2 linux64"
+"rundate" "22:46:41 11/30/2024 "
+"runtitle" "* global nodes                                                    "
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"summary" "analysisInst" ( 
+"Summary Information"
+"test.su0"
+"PSF"
+""
+()
+"Summary Information"
+)

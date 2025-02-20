@@ -1,0 +1,46 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "V-2023.12-SP2 linux64"
+* "format" "HSP"
+* "rundate" "16:18:37 12/01/2024 "
+* "netlist" "test.sp "
+* "runtitle" "* global nodes"
+* time =  0.0000000e+00   
+* temperature =  2.5000000e+01   
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.0000000e-18   
+.nodeset
++ a<0> = 0.0000000e+00   
++ a<1> = 0.0000000e+00   
++ b<0> = 0.0000000e+00   
++ b<1> = 0.0000000e+00   
++ net10 = 8.9999970e-01   
++ net15 = 8.9999990e-01   
++ net18 = 8.9999969e-01   
++ net21 = 8.9999970e-01   
++ net26 = 2.3332577e-07   
++ net27 = 8.9999990e-01   
++ net3 = 4.7809574e-07   
++ net30 = 8.9999969e-01   
++ net33 = 8.9999970e-01   
++ net4 = 8.9999991e-01   
++ net7 = 8.9999969e-01   
++ vdd = 9.0000000e-01   
++ vss = 0.0000000e+00   
++ y<0> = 4.7103873e-07   
++ y<1> = 4.7103873e-07   
++ y<2> = 4.7103524e-07   
++ xi12.net2 = 2.4140464e-07   
++ xi11.net2 = 2.4140637e-07   
++ xi10.net2 = 8.6138976e-01   
++ xi9.net2 = 1.2031631e-07   
++ xi8.net2 = 3.1669120e-02   
++ xi7.net2 = 2.4493488e-07   
++ xi6.net2 = 8.6138987e-01   
++ xi5.net2 = 1.2031430e-07   
++ xi4.net2 = 3.1668957e-02   
++ xi3.net2 = 2.4140637e-07   
++ xi2.net2 = 8.6138987e-01   
++ xi1.net2 = 1.2031430e-07   
++ xi0.net2 = 3.1668957e-02   
+***   END: Saved Operating Point ***                     

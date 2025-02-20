@@ -1,0 +1,190 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+8+85
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+28+75
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/n/nwoolf/ece555/555_project/ADDER_3bit/sim/test.tr0 1 openonly
+# {}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/n/nwoolf/ece555/555_project/ADDER_3bit/sim/test.tr0 1 openonly
+# {}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1085+234
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x773+28+87
+Mdi:ArrangeIcons
+wm geometry . 900x773+680+97
+Mdi:ArrangeIcons
+wm geometry . 900x785+28+75
+Mdi:ArrangeIcons
+wm geometry . 900x773+28+87
+Mdi:ArrangeIcons
+wm geometry . 900x773+680+97
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x773+714+95
+Mdi:ArrangeIcons
+wm geometry . 900x773+680+97
+Mdi:ArrangeIcons
+wm geometry . 900x773+714+95
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/n/nwoolf/ece555/555_project/ADDER_3bit/sim/test.tr0 1 openonly
+# {}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/n/nwoolf/ece555/555_project/ADDER_3bit/sim/test.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x242+2240+540
+wm geometry .sigmgr._PF:1 231x319+1634+565
+wm geometry .sigmgr 376x204+1085+234
+wm geometry .sigmgr 376x204+1529+286
+wm geometry .sigmgr._PF:1 232x242+2240+540
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+1614+542
+wm geometry .sigmgr._PF:1 273x406+1614+542
+pf:read PF:1 v(a<0>) v(a<1>) v(a<2>) v(b<0>) v(b<1>) v(b<2>) v(y<0>) v(y<1>) v(y<2>) v(y<3>)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9 WF:1:10
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9 WF:1:10} -region {new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9
+Mdi:FullSize
+Mdi:NormalSize
+Mdi:FullSize
+Mdi:ArrangeIcons
+wm geometry . 900x773+470+87
+wm geometry .sigmgr._PF:1 232x242+2240+540
+Mdi:ArrangeIcons
+wm geometry . 900x773+714+95
+wm geometry .sigmgr._PF:1 232x242+1614+542
+wm geometry .sigmgr._PF:1 273x406+1614+542
+Mdi:ArrangeIcons
+wm geometry . 900x773+470+87
+Mdi:ArrangeIcons
+wm geometry . 978x822+470+87
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 978x822+288+83
+Mdi:ArrangeIcons
+wm geometry . 978x822+470+87
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 978x822+288+83
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/n/nwoolf/ece555/555_project/ADDER_3bit/sim/test.tr0 1 openonly
+# PF:2
+wm geometry .sigmgr._PF:2 232x242+2270+570
+wm geometry .sigmgr._PF:2 232x242+1448+553
+ScopeSigMgr:Unload 0 {{(1) test.tr0}}
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+Graph0 delsignal Signal8
+Graph0 delsignal Signal9
+pf:read PF:2 v(a<0>) v(a<1>) v(a<2>) v(b<0>) v(b<1>) v(b<2>) v(y<0>) v(y<1>) v(y<2>) v(y<3>)
+# WF:2:1 WF:2:2 WF:2:3 WF:2:4 WF:2:5 WF:2:6 WF:2:7 WF:2:8 WF:2:9 WF:2:10
+Graph addsignal {WF:2:1 WF:2:2 WF:2:3 WF:2:4 WF:2:5 WF:2:6 WF:2:7 WF:2:8 WF:2:9 WF:2:10} -region {new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9
+Mdi:ArrangeIcons
+wm geometry . 1011x822+288+83
+Mdi:Resize 996 702
+Mdi:Move 0 0
+Mdi:ArrangeIcons
+wm geometry . 1110x822+288+83
+Mdi:FullSize
+Mdi:ArrangeIcons
+wm geometry . 1011x822+288+83
+Mdi:ArrangeIcons
+wm geometry . 1110x822+288+83
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:2 372x400+1448+553
+ScopeSigMgr:Unload 0 {{(2) test.tr0}}
+ScopeSigMgr:loadpffile /filespace/n/nwoolf/ece555/555_project/ADDER_3bit/sim/test.tr0 1 openonly
+# PF:3
+wm geometry .sigmgr._PF:3 232x242+2240+540
+wm geometry .sigmgr._PF:3 427x449+2240+540
+GrXY:NewGraph
+# Graph1
+pf:read PF:3 v(a<0>) v(a<2>) v(a<1>) v(b<0>) v(b<1>) v(b<2>) v(y<3>) v(y<2>) v(y<1>) v(y<0>)
+# WF:3:1 WF:3:2 WF:3:3 WF:3:4 WF:3:5 WF:3:6 WF:3:7 WF:3:8 WF:3:9 WF:3:10
+Graph addsignal {WF:3:1 WF:3:2 WF:3:3 WF:3:4 WF:3:5 WF:3:6 WF:3:7 WF:3:8 WF:3:9 WF:3:10} -region {new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9
+Mdi:FullSize
+ScopeSigMgr:Unload 0 {{(1) test.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/n/nwoolf/ece555/555_project/ADDER_3bit/sim/test.tr0 1 openonly
+# PF:4
+wm geometry .sigmgr._PF:4 232x242+2240+540
+wm geometry .sigmgr._PF:4 369x407+2240+540
+GrXY:NewGraph
+# Graph2
+pf:read PF:4 v(a<0>) v(a<1>) v(a<2>) v(b<0>) v(b<1>) v(b<2>) v(y<0>) v(y<1>) v(y<2>) v(y<3>)
+# WF:4:1 WF:4:2 WF:4:3 WF:4:4 WF:4:5 WF:4:6 WF:4:7 WF:4:8 WF:4:9 WF:4:10
+Graph addsignal {WF:4:1 WF:4:2 WF:4:3 WF:4:4 WF:4:5 WF:4:6 WF:4:7 WF:4:8 WF:4:9 WF:4:10} -region {new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9
+Mdi:FullSize
+Mdi:ArrangeIcons
+wm geometry . 1267x822+288+83
+wm geometry .sigmgr 376x204+1431+315
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1529+286
+Mdi:ArrangeIcons
+wm geometry . 1110x822+288+83
+Mdi:ArrangeIcons
+wm geometry . 1267x822+288+83
+wm geometry .sigmgr 376x204+1431+315
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) test.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/n/nwoolf/ece555/555_project/ADDER_3bit/sim/test.tr0 1 openonly
+# PF:5
+wm geometry .sigmgr._PF:5 232x242+2240+540
+wm geometry .sigmgr._PF:5 344x429+2240+540
+GrXY:NewGraph
+# Graph3
+pf:read PF:5 v(a<0>) v(a<1>) v(a<2>) v(b<0>) v(b<1>) v(b<2>) v(y<0>) v(y<1>) v(y<2>) v(y<3>)
+# WF:5:1 WF:5:2 WF:5:3 WF:5:4 WF:5:5 WF:5:6 WF:5:7 WF:5:8 WF:5:9 WF:5:10
+Graph addsignal {WF:5:1 WF:5:2 WF:5:3 WF:5:4 WF:5:5 WF:5:6 WF:5:7 WF:5:8 WF:5:9 WF:5:10} -region {new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9
+Mdi:FullSize
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

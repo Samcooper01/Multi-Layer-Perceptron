@@ -1,0 +1,30 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 02/10/2023 14:05 (cpgsrv13) $
+\o Sub version:		sub-version  s312 
+\o Arguments:		-unmapped -mpssession virtuoso8269 -mpshost linux-2616 
+\o Working Directory:	linux-2616:/filespace/s/sccooper/ece555/555_project
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o changeWorkingDir("/filespace/s/sccooper/ece555/555_project") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/filespace/s/sccooper/ece555/555_project/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(550 199 1135 861))
+\a cdsLibManager->libListBox->value = "ECE555_NEURON"
+\a cdsLibManager->libLineEdit->value = "ECE555_NEURON"
+\a cdsLibManager->libListBox->value = "NCSU_Digital_Parts"
+\a cdsLibManager->libLineEdit->value = "NCSU_Digital_Parts"
+\a cdsLibManager->libListBox->value = "ECE555_NEURON"
+\a cdsLibManager->libLineEdit->value = "ECE555_NEURON"
+\a cdsLibManager->libListBox->value = "NCSU_Digital_Parts"
+\a cdsLibManager->libLineEdit->value = "NCSU_Digital_Parts"
+\a cdsLibManager->libListBox->value = "functional"
+\a cdsLibManager->libLineEdit->value = "functional"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

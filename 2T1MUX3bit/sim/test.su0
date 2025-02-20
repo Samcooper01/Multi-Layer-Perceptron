@@ -1,0 +1,18 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "V-2023.12-SP2 linux64"
+"rundate" "22:46:41 11/30/2024"
+"runtitle" "* global nodes                                                                                                          "
+"runtype" "Summary Information"
+"temperature" "2.5000000e+01"
+"op point time" "0.00"
+"op point iterations" "0"
+"total cpu time" "0.01"
+"node value" "fatal"
+"operating point" "invalid"
+"ac analysis" "invalid"
+"dc sweep" "invalid"
+"transient analysis" "invalid"
+TRAILER
+END
